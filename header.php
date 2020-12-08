@@ -46,6 +46,9 @@ $link = $_SERVER['REQUEST_URI'];
 		.logocolor{
 			color: #e7663f;
 		}
+		.logocolor2{
+			color: #585CA7;
+		}
 	</style>
 
 
@@ -67,7 +70,7 @@ $link = $_SERVER['REQUEST_URI'];
 							<i class="icon-bar"></i>
 						</button>				  
 						<div class="navbar-brand">
-							<h1><a href="index.php"><span class="logocolor">Ced</span> Hosting</a></h1>
+							<h1><a href="index.php"><span class="logocolor">Ced</span><span class="logocolor2"> Hosting</span></a></h1>
 						</div>
 					</div>
 
@@ -123,6 +126,6 @@ $link = $_SERVER['REQUEST_URI'];
 </div>
 </div>
 
-		 <!-- #585CA7; -->
+		 
 
 		 

@@ -76,13 +76,13 @@ $link = $_SERVER['REQUEST_URI'];
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li <?php if ($link=="/task/cedhosting/web/index.php") {
+							<li <?php if ($link=="/task/cedhosting/index.php") {
 								echo 'class="active"';
 							}else {echo "";} ?>><a href="index.php">Home <i class="sr-only">(current)</i></a></li>
-							<li <?php if ($link=="/task/cedhosting/web/about.php") {
+							<li <?php if ($link=="/task/cedhosting/about.php") {
 								echo 'class="active"';
 							}else {echo "";} ?>><a href="about.php">About</a></li>
-							<li <?php if ($link=="/task/cedhosting/web/services.php") {
+							<li <?php if ($link=="/task/cedhosting/services.php") {
 								echo 'class="active"';
 							}else {echo "";} ?>>
 							<a href="services.php">Services</a>
@@ -91,7 +91,7 @@ $link = $_SERVER['REQUEST_URI'];
 							</li>
 						</ul>
 					</li>
-					<li  <?php if (($link=="/task/cedhosting/web/linuxhosting.php")||($link=="/task/cedhosting/web/wordpresshosting.php")||($link=="/task/cedhosting/web/windowshosting.php")||($link=="/task/cedhosting/web/cmshosting.php")) {
+					<li  <?php if (($link=="/task/cedhosting/linuxhosting.php")||($link=="/task/cedhosting/web/wordpresshosting.php")||($link=="/task/cedhosting/windowshosting.php")||($link=="/task/cedhosting/cmshosting.php")) {
 								echo 'class="dropdown active"';
 							}else {echo 'class="dropdown"';} ?>>
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hosting<i class="caret"></i></a>
@@ -102,20 +102,20 @@ $link = $_SERVER['REQUEST_URI'];
 							<li><a href="cmshosting.php">CMS Hosting</a></li>
 						</ul>			
 					</li>
-					<li <?php if ($link=="/task/cedhosting/web/pricing.php") {
+					<li <?php if ($link=="/task/cedhosting/pricing.php") {
 						echo 'class="active"';
 					}else {echo "";} ?>><a href="pricing.php">Pricing</a></li>
 
-					<li <?php if ($link=="/task/cedhosting/web/blog.php") {
+					<li <?php if ($link=="/task/cedhosting/blog.php") {
 						echo 'class="active"';
 					}else {echo "";} ?>><a href="blog.php">Blog</a></li>
-					<li <?php if ($link=="/task/cedhosting/web/contact.php") {
+					<li <?php if ($link=="/task/cedhosting/contact.php") {
 						echo 'class="active"';
 					}else {echo "";} ?>><a href="contact.php">Contact</a></li>
-					<li <?php if ($link=="/task/cedhosting/web/cart.php") {
+					<li <?php if ($link=="/task/cedhosting/cart.php") {
 						echo 'class="active"';
 					}else {echo "";} ?>><a href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-					<li <?php if (($link=="/task/cedhosting/web/login.php")||($link=="/task/cedhosting/web/account.php")) {
+					<li <?php if (($link=="/task/cedhosting/login.php")||($link=="/task/cedhosting/web/account.php")) {
 						echo 'class="active"';
 					}else {echo "";} ?>><a href="login.php">login</a></li>
 				</ul>
